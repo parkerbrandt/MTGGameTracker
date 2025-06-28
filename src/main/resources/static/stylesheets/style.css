@@ -1,0 +1,27 @@
+header {
+    text-align: center;
+    background-color: darkslategray;
+    color: white;
+    border-radius: 25px;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    background-color: lightgray;
+    color: darkgray;
+    border-radius: 25px;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+}
+
+.tile {
+    text-align: center;
+    background-color: cadetblue;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+}

@@ -3,11 +3,27 @@
       xmlns:th="http://www.thymeleaf.org">
     <head>
         <title>Magic Match Tracking</title>
+        <link rel="stylesheet" th:href="@{stylesheets/style.css}" />
     </head>
 
     <body>
-        <h1>Track Your Magic the Gathering Games...</h1>
-        <!-- <img th:src="@{/images/HomePageWelcome.png}"/> -->
+        <header>
+            <h1>Track Your Magic the Gathering Games</h1>
+        </header>
+
+        <main>
+            <div class="tile">
+                <h2>Tile 1</h2>
+            </div>
+
+            <div class="tile">
+                <h2>Tile 2</h2>
+            </div>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 Lucentus Match Tracker</p>
+        </footer>
     </body>
 
 </html>
