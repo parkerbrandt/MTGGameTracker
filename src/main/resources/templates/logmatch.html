@@ -16,7 +16,17 @@
             <form method="POST" th:object="${logmatch}">
                 <div class="tile">
                     <h3>Players</h3>
-                    
+                    <div th:each="player : ${players}">
+                        <span th:text="${player.username}">PLAYER</span>
+                        <input name="players" type="text" />
+                    </div>
+                </div>
+                <div class="tile">
+                    <h3>Format</h3>
+                    <div th:each="format : ${formats}">
+                        <input name="formats" type="radio" th:value="${format.id}" />
+                        <span th:text="${format.name}">FORMAT</span><br />
+                    </div>
                 </div>
 
                 <div class="tile">
